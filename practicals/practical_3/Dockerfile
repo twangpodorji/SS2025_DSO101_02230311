@@ -1,12 +1,8 @@
-FROM python:3.10-alpine
+# using the nginx alpine image base 
+FROM nginx:alpine
 
-WORKDIR /app
+# Copy the portfolio files to the nginx ht
+COPY . /usr/share/nginx/html
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-
-EXPOSE 5000
-
-CMD ["python", "app.py"]
+# Expose port 80
+EXPOSE 80
