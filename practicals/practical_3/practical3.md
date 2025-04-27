@@ -75,8 +75,8 @@ docker push wangpo1642/wangpov4
 - Render automatically built and deployed the container as shown in the given example below:
   ![alt text](images/outcome.png)
 
-      Successful deployment to Render. We can now view the image locally using the port ```localhost:8001```
-      ![](5.png)
+Successful deployment to Render. We can now view the image locally using the port "localhost:8001"
+      
 
 ## Conclusion
 
