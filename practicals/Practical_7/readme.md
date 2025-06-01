@@ -1,0 +1,1 @@
+[Link To Practical 7](https://github.com/twangpodorji/DSO101_practical7.git)
